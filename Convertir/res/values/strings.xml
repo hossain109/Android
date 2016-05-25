@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Convertir</string>
+    <string name="action_settings">Parametre</string>
+    <string name="hello_world">Bonjour le monde!</string>
+    
+    <string name="convertir">Convertir</string>
+	<string name="resultant">Resultant</string>
+    <string name="eurodollar">Euro Dollar</string>
+	<string name="number">Numero</string>
+	<string name="dollareuro">Dollar Euro</string>
+    
+
+</resources>

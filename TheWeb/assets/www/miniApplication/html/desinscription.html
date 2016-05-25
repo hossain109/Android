@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Désinscription</title>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+    <link rel="stylesheet" href="../jquery/jquery.mobile.css" />
+
+    <link rel="stylesheet" href="../css/miniApplication.css" />
+
+    <script type="text/javascript" src="../jquery/jquery.js"></script>
+    <script type="text/javascript" src="../jquery/jquery.mobile.js"></script>
+
+    <script type="text/javascript" src="../js/miniApplication.js"></script>
+</head>
+
+<body>
+
+<div data-role="page" data-theme="a">
+
+    <div data-role="header" data-position="inline">
+        <h1>Mini-Application</h1>
+        <p data-role="controlgroup" data-type="horizontal">
+            <a href="accueil.html" data-role="button" data-icon="home" data-iconpos="left">&nbsp;</a>
+            <a href="inscription.html" data-role="button">Inscription</a>
+            <a href="desinscription.html" data-role="button">Désinscription</a>
+            <a href="catalogue.html" data-role="button">Catalogue</a>
+        </p>
+    </div>
+
+<div data-role="content" data-ajax="false">
+    <h1>Saisissez ...</h1>
+
+    <!-- Pas d'ajax sinon KO -->
+    <form id="formDesinscription" action="desinscriptionConfirmation.html" method="GET" data-ajax="false">
+        <p data-role="fieldcontain">
+            <label for="pseudo">Pseudo :</label>
+            <input type="text" name="pseudo" id="pseudo" value="Tintin"  />
+        </p>
+        <p data-role="fieldcontain">
+            <label for="mdp">Mot de passe :</label>
+            <input type="password" name="mdp" id="mdp" value="tintin" />
+        </p>
+
+        <input type="submit" value="Confirmer" data-icon="delete" data-iconpos="right"/>
+        <!-- <a href="desinscriptionConfirmation.html" data-role="button" data-rel="dialog" data-transition="pop" onclick="validerDesinscription()">Confirmer</a> -->
+    </form>
+
+</div><!-- /content -->
+
+    <div data-role="footer" data-position="fixed">
+        &COPY; PB & co
+    </div><!-- /footer -->
+
+</div><!-- /page -->
+
+</body>
+</html>

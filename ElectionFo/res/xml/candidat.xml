@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<racine>
+<candidat idcandidat='1' nomcandidat='Anne Hidalgo' idparti='1' />
+<candidat idcandidat='2' nomcandidat='NKM' idparti='2' />
+<candidat idcandidat='3' nomcandidat='Christophe Najdovski' idparti='3' />
+<candidat idcandidat='4' nomcandidat='Danielle Simonnet' idparti='4' />
+<candidat idcandidat='5' nomcandidat='Charles Beigbeder' idparti='5' />
+<candidat idcandidat='6' nomcandidat='Wallerand de Saint-Just' idparti='6' />
+</racine>

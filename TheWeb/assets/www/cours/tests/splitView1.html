@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--   -->
+    <title>sliptView1</title>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+    <link rel="stylesheet" href="../../jquery/jquery.mobile.css" />
+    <link rel="stylesheet" href="../../jquery/splitview/jquery.mobile.grids.collapsible.css" />
+    <link rel="stylesheet" href="../../jquery/splitview/jquery.mobile.splitview.css" />
+
+    <script src="../../jquery/jquery.js"></script>
+    <script src="../../jquery/jquery.mobile.js"></script>
+    <script src="../../jquery/splitview/jquery.mobile.splitview.js"></script>
+</head>
+
+<body>
+
+
+<div data-role="panel" data-id="menu" data-hash="crumbs" data-context="a#default">
+      <!-- Start of first page -->
+      <div data-role="page" id="principale" data-hash="false">
+
+      	<div data-role="header">
+            <h1>Menu principal</h1>
+      	</div><!-- /header -->
+
+      	<div data-role="content">	
+            <ul data-role="listview">
+                <li><a href="#credits" data-panel="main">S'inscrire</a></li>
+                <li><a href="#credits" data-panel="main">Se désincrire</a></li>
+                <li><a href="#source" data-panel="main">Catalogue</a></li>
+            </ul>
+      	</div><!-- /content -->
+
+        <div data-role="footer" data-position="fixed" data-id="pied">
+            <h2 class="ui-splitview-hidden">&copy PB & co</h2>
+        </div><!-- /footer -->
+        
+      </div><!-- /page -->
+      
+    </div><!-- panel main -->
+    
+      </body>
+</html>

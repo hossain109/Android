@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="fr.pb.androidsql"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+
+                     android:name="fr.pb.androidsql.AffichageImageFromData"
+            android:label="@string/title_activity_affichage_image_from_data" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="fr.pb.androidsql.SQLiteExemple"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="fr.pb.androidsql.FournisseurContentProvider"
+            android:label="@string/title_activity_fournisseur_content_provider" >
+        </activity>
+        <activity
+            android:name="fr.pb.androidsql.ContentResolverSQLite"
+            android:label="@string/title_activity_content_resolver_sqlite" >
+        </activity>
+        <activity
+            android:name="fr.pb.androidsql.FournisseurSQLite"
+            android:label="@string/title_activity_fournisseur_sqlite" >
+        </activity>
+        <activity
+            android:name="fr.pb.androidsql.SQLiteExo"
+            android:label="@string/title_activity_sqlite_exo" >
+        </activity>
+        <activity
+            android:name="fr.pb.androidsql.AndroidSQLiteContentResolver"
+            android:label="@string/title_activity_android_sqlite_content_resolver" >
+        </activity>
+    </application>
+
+</manifest>

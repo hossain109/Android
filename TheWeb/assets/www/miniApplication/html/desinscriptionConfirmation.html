@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Confirmation désinscription</title>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+    <link rel="stylesheet" href="../jquery/jquery.mobile.css" />
+    <link rel="stylesheet" href="../css/miniApplication.css" />
+
+    <script type="text/javascript" src="../jquery/jquery.js"></script>
+    <script type="text/javascript" src="../jquery/jquery.mobile.js"></script>
+    <script type="text/javascript" src="../js/miniApplication.js"></script>
+</head>
+
+<body>
+
+<div data-role="page" data-theme="a">
+
+    <div data-role="header">
+    </div><!-- /header -->
+
+<div data-role="content">
+    <h1>Confirmez votre désinscription!</h1>
+    <!-- Pas d'ajax sinon c'est KO -->
+    <form name="formDesinscriptionConfirmation" id="formDesinscriptionConfirmation" action="desinscriptionValidation.html" method="GET" data-ajax="false">
+        <p data-role="fieldcontain">
+            <label for="pseudo">Pseudo :</label>
+            <input type="text" name="pseudo" id="pseudo" value=""  />
+        </p>
+        <p data-role="fieldcontain">
+            <label for="mdp">Mot de passe :</label>
+            <input type="password" name="mdp" id="mdp" value="" />
+        </p>
+
+        <a href="desinscription.html" data-role="button" data-icon="back" data-inline="true">Annuler</a>
+        <input type="submit" value="Valider" data-icon="check" data-iconpos="right" data-inline="true"/>
+    </form>
+</div><!-- /content -->
+
+
+    <div data-role="footer" data-position="fixed">
+        &COPY; PB & co
+    </div><!-- /footer -->
+
+
+<script type="text/javascript">
+    // ----------
+    function init()
+    // ----------
+    {
+        // --- Appels aux fonctions de miniApplication.js
+        // --- A partir de http://ip/chemin/ressource.html?a1=v1&a2=v2
+        // --- On recupere : a1=v1&a2=v2 ...
+        //var sAttributsValeursURL = getAttributsValeursURL(window.location.search);
+        var sAttributsValeursURL = getAttributsValeursURL();
+//alert("sAttributsValeursURL : " + sAttributsValeursURL);
+        // --- On recupere un tableau [ a1=v1, a2=v2, ... ]
+        var tAttributsValeurs = sAttributsValeursURL.split("&");
+//alert("tAttributsValeurs : " + tAttributsValeurs);
+
+        // --- On recupere un tableau [v1, v2, ...]
+        var tValeurs = getValeurs(tAttributsValeurs);
+
+        // --- On affecte aux elements HTML
+        $("#pseudo").val(tValeurs[0]);
+        $("#mdp").val(tValeurs[1]);
+    }
+
+    $(document).ready(init);
+</script>
+
+</div><!-- /page -->
+
+</body>
+</html>

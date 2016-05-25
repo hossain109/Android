@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ajouter</title>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+    <link rel="stylesheet" href="../../jquery/jquery.mobile.css" />
+
+    <script src="../../jquery/jquery.js"></script>
+    <script src="../../jquery/jquery.mobile.js"></script>
+</head>
+
+<body>
+
+<div data-role="page">
+
+    <div data-role="content">
+        
+    <h1>Ajout</h1>
+
+    <form id="formAjouter" action="" method="get">
+
+        <p data-role="fieldcontain">
+            <label for="pseudo">Pseudo</label>
+            <input type="text" name="pseudo" id="pseudo" value="Tintin" />
+        </p>
+
+        <p data-role="fieldcontain">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" value="tintin@free.fr" />
+        </p>
+
+        <p data-role="fieldcontain">
+            <label for="mdp">Mot de passe</label>
+            <input type="password" name="mdp" id="mdp" value="tintin" />
+        </p>
+
+        <fieldset class="ui-grid-a">
+            <div class="ui-block-a"><input type="reset" value="Annuler" name="btAnnuler" id="btAnnuler" data-icon="back" data-iconpos="right" /></div>
+            <div class="ui-block-b"><input type="submit" value="Confirmer" name="btConfirmer" id="btConfirmer" data-icon="check" data-iconpos="right" /></div>
+        </fieldset>
+
+    </form>
+
+    </div><!-- /content -->
+
+</div><!-- /page -->
+
+</body>
+</html>

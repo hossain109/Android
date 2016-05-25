@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Liste XML</title>
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+        <link rel="stylesheet" href="../jquery/jquery.mobile.css" />
+
+        <script type="text/javascript" src="../jquery/jquery.js"></script>
+        <script type="text/javascript" src="../jquery/jquery.mobile.js"></script>
+    </head>
+
+
+
+<body>
+
+    <script type="text/javascript">
+        // ------------
+        function init()
+        // ------------
+        {
+            $.get
+            (
+                "../xml/produits.xml",
+                function(donnees)
+                {
+                    var lsContenu = "";
+
+                    // --- Pour chaque element "produit"
+                    $(donnees).find("produit").each(function()
+                    {
+                        // --- Recuperation de la valeur de l'attribut
+                        var lsDesignation = $(this).attr("designation");
+
+                        // --- Creation des items
+                        lsContenu += "<li>";
+                        lsContenu += "<a href='#'>";
+                        lsContenu += lsDesignation;
+                        lsContenu += "</a>";
+                        lsContenu += "</li>";
+                    });
+
+                    //$("#liste").html(lsContenu);
+                    $("#liste").append(lsContenu);
+                    // --- Obligatoire pour avoir l'aspect phone!!!
+                    $("#liste").listview('refresh');
+                }
+            );
+        }
+
+        // --- Appel de la fonction init() avant la creation des widgets
+        $(document).delegate("#listeXML", "pagebeforecreate", function() {
+            init();
+        });
+    </script>
+
+    <div data-role="page" id="listeXML">
+
+        <div data-role="content">
+
+            <ul data-role="listview" data-filter="true" data-theme="a" id="liste" data-ajax="false">
+            </ul>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

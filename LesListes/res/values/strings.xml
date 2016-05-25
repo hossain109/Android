@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LesListes</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_liste_simple">ListeSimple</string>
+    <string name="title_activity_liste_pays_complexe">ListePaysComplexe</string>
+    
+    <string name="pays">Pays</string>
+    <string name="drapeau">Drapeau</string>
+    <string name="image">Image</string>
+
+</resources>

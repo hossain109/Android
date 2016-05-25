@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MultiplesActivites</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_accueil">Accueil</string>
+    <string name="title_activity_editeur_insert">Editeur+</string>
+    <string name="title_activity_auteur_insert">Auteur+</string>
+    <string name="title_activity_livre_insert">Livre+</string>
+    <string name="title_activity_aide_editeur_insert">Aide Editeur+</string>
+    <string name="annuler">Annuler</string>
+    <string name="ok">OK</string>
+    <string name="ko">KO</string>
+    <string name="nom">Nom</string>
+    <string name="site">Site</string>
+    <string name="editeur">Editeur</string>
+    <string name="auteur">Auteur</string>
+    <string name="livre">Livre</string>
+    <string name="titre">Titre</string>
+    <string name="photo">Photo</string>
+    <string name="aide">Aide</string>
+    <string name="message">Message</string>
+    <string name="title_activity_insert_livre">InsertLivre</string>
+
+</resources>

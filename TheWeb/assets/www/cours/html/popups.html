@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Popups</title>
+
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+    <link rel="stylesheet" href="../../jquery/jquery.mobile.css" />
+
+    <script src="../../jquery/jquery.js"></script>
+    <script src="../../jquery/jquery.mobile.js"></script>
+
+</head>
+
+<body>
+
+<div data-role="page">
+
+    <div data-role="header">
+        <h1>popus.html</h1>
+    </div><!-- /header -->
+
+    <div data-role="content">
+        <div data-role="controlgroup" data-type="vertical">
+           <a href="#popupBasic" data-role="button" data-rel="popup" data-position-to="origin">Basique</a>
+           <a href="#popupAvecBoutonFermeture" data-role="button" data-rel="popup">Avec bouton de fermeture</a>
+           <a href="#popupPhoto" data-role="button" data-rel="popup" data-position-to="window">Photo</a>
+           <a href="#popupFormulaire" data-role="button" data-rel="popup" data-position-to="window">Formulaire</a>
+           <a href="#" id="btOuvrirPopup" data-role="button">Via un script</a>
+        </div>  
+        
+        <!--Les popups-->
+        <div data-role="popup" id="popupBasic">
+            <p>Popup de base !!!<p>
+        </div>
+        
+        <div data-role="popup" id="popupAvecBoutonFermeture" class="ui-content">
+            <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Fermer</a>
+            Vous pouvez fermer cette popup<br/> en cliquant sur le bouton en haut à droite !
+        </div> 
+        
+        <div data-role="popup" id="popupPhoto" class="ui-content">
+            <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Fermer</a>
+            <img src="http://localhost/images/cinema/100.jpg" alt="Photo" />
+        </div>        
+        
+    </div><!-- /content -->
+
+    <div data-role="footer" data-position="fixed">
+        <p>Pied de page</p>
+    </div><!-- /footer -->
+
+    <script>
+        function ouvrirPopup()
+        {
+            $("#popupBasic").popup("open", { positionTo: "origin" });
+        }
+        $("#btOuvrirPopup").hover(ouvrirPopup);
+    </script>
+    
+</div><!-- /page -->
+
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Colonnes</title>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0" />    
+
+    <link rel="stylesheet" href="../../jquery/jquery.mobile.css" />
+
+    <script src="../../jquery/jquery.js"></script>
+    <script src="../../jquery/jquery.mobile.js"></script>
+</head>
+
+<body>
+
+<!-- Début de la 1ere page -->
+<div data-role="page" id="colonnes2">
+
+    <div data-role="header">
+        <h1>2 Colonnes</h1>
+    </div><!-- /header -->
+
+    <div data-role="content">
+        <fieldset class="ui-grid-a">
+        <div class="ui-block-a"><button type="submit" data-theme="c">Annuler</button></div>
+        <div class="ui-block-b"><button type="submit" data-theme="b">Envoyer</button></div>
+        </fieldset>
+        <p><a href="#colonnes3" data-transition="pop">Vers 3 colonnes</a></p>
+    </div><!-- /content -->
+
+</div><!-- /page -->
+<!-- Fin de la 1ere page -->
+
+
+
+<!-- Début de la 2eme page -->
+<div data-role="page" id="colonnes3" data-title="3 colonnes">
+
+    <div data-role="header">
+        <h1>3 colonnes</h1>
+    </div><!-- /header -->
+
+    <div data-role="content">
+        <div class="ui-grid-b">
+        <div class="ui-block-a"><button type="submit" data-theme="a">Oui</button></div>
+        <div class="ui-block-b"><button type="submit" data-theme="b">Non</button></div>
+        <div class="ui-block-c"><button type="submit" data-theme="c">Peut-être</button></div>
+        </div><!-- /grid-b -->
+        <p><a href="#colonnes2">Retour à 2 colonnes</a></p>
+    </div><!-- /content -->
+
+</div><!-- /page -->
+<!-- Fin de la 2eme page -->
+
+</body>
+</html>

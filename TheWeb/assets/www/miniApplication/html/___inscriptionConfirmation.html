@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Confirmation de votre inscription</title>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+    <link rel="stylesheet" href="../jquery/jquery.mobile.css" />
+    <link rel="stylesheet" href="../css/perso.css" />
+
+    <script type="text/javascript" src="../jquery/jquery.js"></script>
+    <script type="text/javascript" src="../jquery/jquery.mobile.js"></script>
+    <script type="text/javascript" src="../js/perso.js"></script>
+
+    <script type="text/javascript">
+        //$(document).ready(recupererGets);
+        $(document).delegate("#inscriptionConfirmation", "pagebeforecreate", function() {
+            recupererGets();
+        });
+
+    </script>
+
+</head>
+
+<body>
+
+<div data-role="page" data-theme="e" id="inscriptionConfirmation">
+
+    <div data-role="header">
+    </div><!-- /header -->
+
+    <div data-role="content">
+        <h1>Confirmez votre inscription!</h1>
+        <!-- Pas d'ajax sinon c'est KO -->
+        <form name="formInscriptionConfirmation" id="formInscriptionConfirmation" action="___inscriptionValidation.html" method="GET" data-ajax="false">
+            <p data-role="fieldcontain">
+                <label for="pseudo">Pseudo :</label>
+                <input type="text" name="pseudo" id="pseudo" value="" />
+            </p>
+            <p data-role="fieldcontain">
+                <label for="email">E-mail :</label>
+                <input type="email" name="email" id="email" value="" />
+            </p>
+            <p data-role="fieldcontain">
+                <label for="mdp">Mot de passe :</label>
+                <input type="password" name="mdp" id="mdp" value="" />
+            </p>
+
+            <fieldset class="ui-grid-a">
+                <p class="ui-block-a">
+                    <a href="inscription.html" data-role="button" data-icon="back" data-theme="d">Annuler</a>
+                </p>
+                <p class="ui-block-b">
+                    <input type="submit" value="Valider" name="btValider" id="btValider" data-icon="check" data-iconpos="right"/>
+                </p>
+            </fieldset>
+        </form>
+    </div><!-- /content -->
+
+
+    <div data-role="footer" data-position="fixed">
+        <p>&COPY; PB & co</p>
+    </div><!-- /footer -->
+
+</div><!-- /page -->
+
+</body>
+</html>

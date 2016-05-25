@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Multimedia/res/raw/Kalimba.mp3&apos; to &apos;kalimba.mp3&apos;" description="Rename resource &apos;Kalimba.mp3&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="res/raw/Kalimba.mp3" name="kalimba.mp3" stamp="1454324416561" updateReferences="true"/>
+</session>

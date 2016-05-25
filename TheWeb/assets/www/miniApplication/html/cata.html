@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Liste XML++</title>
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+        <script src="../../jquery/jquery.js"></script>
+        <link rel="stylesheet" href="../css/miniApplication.css" />
+    </head>
+
+    <body>
+
+        <script>
+            // ------------
+            function init()
+            {
+                $.get
+                        (
+                                "../xml/produits.xml",
+                                function(donnees)
+                                {
+                                    var lsContenu = "";
+
+                                    // --- Pour chaque element "produit"
+                                    $(donnees).find("produit").each(function()
+                                    {
+                                        // --- Recuperation de la valeur de l'attribut
+                                        var lsImage = "../images/" + $(this).attr("image");
+                                        var lsDesignation = $(this).attr("designation");
+                                        var lsDescription = $(this).attr("description");
+                                        var lsStock = $(this).attr("stock");
+
+                                        // --- Creation des items
+                                        lsContenu += "<li data-theme='a'>";
+                                        lsContenu += "<a href='#'>";
+                                        lsContenu += "<img src='" + lsImage + "' alt='Image' class='ui-li-icon' width='25' height='25'/>";
+                                        lsContenu += lsDesignation;
+                                        lsContenu += "<p>" + lsDescription + "</p>";
+                                        lsContenu += "<span class='ui-li-count'>" + lsStock + "</span>";
+                                        lsContenu += "</a>";
+                                        lsContenu += "</li>";
+                                    });
+
+                                    //$("#liste").html(lsContenu);
+                                    $("#liste").append(lsContenu);
+                                    // --- Obligatoire pour avoir l'aspect phone!!!
+                                    //$("#liste").listview('refresh');
+                                }
+                        );
+            }
+
+            // --- Appel de la fonction init() avant la creation des widgets
+            $(document).ready(function() {
+                init();
+            });
+
+//            (document).on("mobileinit", function() {
+//                init();
+//            });
+        </script>
+
+        <div id="listeXML">
+            <ul>
+            </ul>
+        </div>
+
+    </body>
+
+</html>

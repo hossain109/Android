@@ -1,0 +1,22 @@
+/* --- miniApplication.css --- */
+
+h1{font-size:medium;}
+
+table{border-collapse:collapse;}
+
+th{border:1px solid black; padding:7px;}
+td{border:1px solid black; padding:7px;}
+
+/* */
+/*#btAccueil{width: 9%;}
+#btInscription{width: 30%;}
+#btDesinscription{width: 30%;}
+#btCatalogue{width: 30%;}*/
+
+/* */
+/*#btInscription, #btDesinscription, #btCatalogue{font-size: xx-small;}*/
+
+#centre{text-align: center}
+
+
+

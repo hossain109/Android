@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <produit id="1" designation="Coca" prix="1" image="coca.jpg" description="Boisson sans soif" stock="100"/>
+    <produit id="2" designation="Badoit" prix="1.2" image="badoit.jpg" description="La pétillante" stock="130"/>
+    <produit id="3" designation="Evian" prix="1.5" image="evian.jpg" description="La montagne..." stock="170"/>
+    <produit id="4" designation="Picpoul" prix="10" image="picpoul.jpg" description="Rare ..." stock="10"/>
+    <produit id="5" designation="Graves" prix="12" image="graves.jpg" description="Pas si léger ..." stock="100"/>
+    <produit id="6" designation="Ruinard" prix="37" image="ruinard.jpg" description="En magnum ..." stock="50"/>
+    <produit id="7" designation="Dom Pérignon" prix="150" image="dom.jpg" description="Le nec plus ultra" stock="12"/>
+</root>

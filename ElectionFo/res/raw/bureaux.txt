@@ -1,0 +1,114 @@
+235;01-01;Mairie d'arrondissement;4 Place du Louvre;200;150;5;120;100;1;NULL
+236;01-02;?cole ?l?mentaire;19 rue de l'arbre sec;500;400;100;300;350;1;NULL
+237;01-03;?cole ?l?mentaire;6 rue Saint Germain l'Auxerrois;1000;700;120;600;400;1;NULL
+238;01-04;Bourse de commerce;2 Rue de Viarmes;400;300;80;250;200;1;NULL
+239;01-05;Bourse de commerce;2 Rue de Viarmes;900;700;160;500;406;1;NULL
+240;01-06;Bourse de commerce;2 Rue de Viarmes;500;NULL;NULL;NULL;NULL;1;NULL
+241;01-07;Coll?ge d'enseignement secondaire Poquelin;6 rue Moli?re;NULL;NULL;NULL;NULL;NULL;1;NULL
+242;01-08;?cole ?l?mentaire;11 rue d'Argenteuil;NULL;NULL;NULL;NULL;NULL;1;NULL
+243;01-09;?cole maternelle;27 rue de la Sourdi?re;NULL;NULL;NULL;NULL;NULL;1;NULL
+244;01-10;?cole ?l?mentaire;28 rue Cambon;NULL;NULL;NULL;NULL;NULL;1;NULL
+245;07-01;Mairie du 7?me;116 rue de Grenelle;NULL;NULL;NULL;NULL;NULL;7;NULL
+246;07-02;?cole polyvalente;27 rue Las Cases;NULL;NULL;NULL;NULL;NULL;7;NULL
+247;07-03;Institution nationale des Invalides;6 boulevard des Invalides;NULL;NULL;NULL;NULL;NULL;7;NULL
+248;07-04;Institution d'?tudes politiques;13 rue de l'Universit?;NULL;NULL;NULL;NULL;NULL;7;NULL
+249;07-05;Institution d'?tudes politiques;13 rue de l'Universit?;NULL;NULL;NULL;NULL;NULL;7;NULL
+250;07-06;Mairie du 7?me;116 rue de Grenelle;NULL;NULL;NULL;NULL;NULL;7;NULL
+251;07-07;Institution d'?tudes politiques;27 rue Saint-Guillaume;NULL;NULL;NULL;NULL;NULL;7;NULL
+252;07-08;?cole ?l?mentaire;8 rue Chomel;NULL;NULL;NULL;NULL;NULL;7;NULL
+253;07-09;?cole ?l?mentaire;42 avenue Duquesne;NULL;NULL;NULL;NULL;NULL;7;NULL
+254;07-10;?cole maternelle;48 rue Vaneau;NULL;NULL;NULL;NULL;NULL;7;NULL
+255;07-11;?cole ?l?mentaire;14 rue ?bl? (modifi?);NULL;NULL;NULL;NULL;NULL;7;NULL
+256;07-12;?cole ?l?mentaire;42 avenue Duquesne;NULL;NULL;NULL;NULL;NULL;7;NULL
+257;07-13;?cole ?l?mentaire;14 rue ?bl?;NULL;NULL;NULL;NULL;NULL;7;NULL
+258;07-14;?cole ?l?mentaire;10 avenue de La Motte-Picquet;NULL;NULL;NULL;NULL;NULL;7;NULL
+259;07-15;?cole ?l?mentaire;10 avenue de La Motte-Picquet;NULL;NULL;NULL;NULL;NULL;7;NULL
+260;07-16;Coll?ge Jules Romains;6 rue Cler;NULL;NULL;NULL;NULL;NULL;7;NULL
+261;07-17;Coll?ge Jules Romains;6 rue Cler;NULL;NULL;NULL;NULL;NULL;7;NULL
+262;07-18;Coll?ge Jules Romains;6 rue Cler;NULL;NULL;NULL;NULL;NULL;7;NULL
+263;07-19;Conservatoire municipal du 7?me;135bis rue de l'Universit?;NULL;NULL;NULL;NULL;NULL;7;NULL
+264;07-20;Coll?ge Lyc?e La Rochefoucauld;90bis rue Saint-Dominique;NULL;NULL;NULL;NULL;NULL;7;NULL
+265;07-21;?cole maternelle;28 avenue Rapp;NULL;NULL;NULL;NULL;NULL;7;NULL
+266;07-22;?cole ?l?mentaire;1 rue du G?n?ral Camou;NULL;NULL;NULL;NULL;NULL;7;NULL
+267;07-23;?cole ?l?mentaire;1 rue du G?n?ral Camou;NULL;NULL;NULL;NULL;NULL;7;NULL
+268;07-24;Gymnase Camou;35 avenue de La Bourdonnais;NULL;NULL;NULL;NULL;NULL;7;NULL
+269;09-01;Mairie d'arrondissement;6 rue Drouot;NULL;NULL;NULL;NULL;NULL;9;NULL
+270;09-02;Mairie d'arrondissement;6 rue Drouot;NULL;NULL;NULL;NULL;NULL;9;NULL
+271;09-03;?cole maternelle;11 rue de la Grande Bateli?re;NULL;NULL;NULL;NULL;NULL;9;NULL
+272;09-04;?cole ?l?mentaire;32 rue Buffault;NULL;NULL;NULL;NULL;NULL;9;NULL
+273;09-05;?cole ?l?mentaire;16 rue de la Victoire;NULL;NULL;NULL;NULL;NULL;9;NULL
+274;09-06;Lyc?e Condorcet;65 rue Caumartin;NULL;NULL;NULL;NULL;NULL;9;NULL
+275;09-07;?cole ?l?mentaire;10 rue de Clichy;NULL;NULL;NULL;NULL;NULL;9;NULL
+276;09-08;?cole ?l?mentaire;9 rue Blanche;NULL;NULL;NULL;NULL;NULL;9;NULL
+277;09-09;?cole maternelle;9 Bis rue Blanche;NULL;NULL;NULL;NULL;NULL;9;NULL
+278;09-10;?cole maternelle;12 rue Clauzel;NULL;NULL;NULL;NULL;NULL;9;NULL
+279;09-11;?cole maternelle;12 rue Clauzel;NULL;NULL;NULL;NULL;NULL;9;NULL
+280;09-12;Lyc?e Edgar Quinet;63 rue des Martyrs;NULL;NULL;NULL;NULL;NULL;9;NULL
+281;09-13;?cole maternelle;12 rue Chaptal;NULL;NULL;NULL;NULL;NULL;9;NULL
+282;09-14;?cole ?l?mentaire;12 rue Chaptal;NULL;NULL;NULL;NULL;NULL;9;NULL
+283;09-15;?cole maternelle;32 rue de Bruxelles;NULL;NULL;NULL;NULL;NULL;9;NULL
+284;09-16;Gymnase Paul Gauguin;35 rue Milton;NULL;NULL;NULL;NULL;NULL;9;NULL
+285;09-17;?cole ?l?mentaire;10 rue Hippolyte Lebas;NULL;NULL;NULL;NULL;NULL;9;NULL
+286;09-18;?cole maternelle;22 rue de Rochechouart;NULL;NULL;NULL;NULL;NULL;9;NULL
+287;09-19;Lyc?e Lamartine;121 rue du Faubourg Poissonni?re;NULL;NULL;NULL;NULL;NULL;9;NULL
+288;09-20;Gymnase Paul Gauguin;35 rue Milton;NULL;NULL;NULL;NULL;NULL;9;NULL
+289;09-21;?cole ?l?mentaire;45 rue de la tour d'Auvergne;NULL;NULL;NULL;NULL;NULL;9;NULL
+290;09-22;Lyc?e Jacques Decour;Avenue Trudaine;NULL;NULL;NULL;NULL;NULL;9;NULL
+291;09-23;?cole ?l?mentaire;15 rue de Turgot;NULL;NULL;NULL;NULL;NULL;9;NULL
+292;09-24;?cole maternelle;68 rue de Rochechouart;NULL;NULL;NULL;NULL;NULL;9;NULL
+293;09-25;?cole maternelle;68 rue de Rochechouart;NULL;NULL;NULL;NULL;NULL;9;NULL
+294;11-01;Mairie d'Arrondissement;12 Place L?on Blum;NULL;NULL;NULL;NULL;NULL;11;NULL
+295;11-02;?cole ?l?mentaire;11 bis Av Parmentier;NULL;NULL;NULL;NULL;NULL;11;NULL
+296;11-03;?cole Maternelle;144 rue de la Roquette;NULL;NULL;NULL;NULL;NULL;11;NULL
+297;11-04;?cole ?l?mentaire;35 rue Godefroy Cavaignac;NULL;NULL;NULL;NULL;NULL;11;NULL
+298;11-05;?cole ?l?mentaire;35 rue Godefroy Cavaignac;NULL;NULL;NULL;NULL;NULL;11;NULL
+299;11-06;?cole ?l?mentaire;33 rue Saint Bernard;NULL;NULL;NULL;NULL;NULL;11;NULL
+300;11-07;Coll?ge Anne Franck;38 rue Trousseau;NULL;NULL;NULL;NULL;NULL;11;NULL
+301;11-08;Coll?ge Anne Franck;38 rue Trousseau;NULL;NULL;NULL;NULL;NULL;11;NULL
+302;11-09;?cole ?l?mentaire;10 rue Keller;NULL;NULL;NULL;NULL;NULL;11;NULL
+303;11-10;?cole ?l?mentaire;10 rue Keller;NULL;NULL;NULL;NULL;NULL;11;NULL
+304;11-11;?cole ?l?mentaire;10 rue Keller;NULL;NULL;NULL;NULL;NULL;11;NULL
+305;11-12;?cole Maternelle;9 rue Popincourt;NULL;NULL;NULL;NULL;NULL;11;NULL
+306;11-13;?cole Maternelle;9 rue Popincourt;NULL;NULL;NULL;NULL;NULL;11;NULL
+307;11-14;?cole ?l?mentaire;13 rue Froment;NULL;NULL;NULL;NULL;NULL;11;NULL
+308;11-15;?cole Maternelle;13 Bd Richard Lenoir;NULL;NULL;NULL;NULL;NULL;11;NULL
+309;11-16;?cole ?l?mentaire;17 rue Alphonse Baudin;NULL;NULL;NULL;NULL;NULL;11;NULL
+310;11-17;?cole ?l?mentaire;17 rue Alphonse Baudin;NULL;NULL;NULL;NULL;NULL;11;NULL
+311;11-18;?cole ?l?mentaire Saint S?bastien;17 rue Alphonse Baudin;NULL;NULL;NULL;NULL;NULL;11;NULL
+312;11-19;?cole ?l?mentaire Saint S?bastien;17 rue Alphonse Baudin;NULL;NULL;NULL;NULL;NULL;11;NULL
+313;11-20;Coll?ge Beaumarchais;124 rue Amelot;NULL;NULL;NULL;NULL;NULL;11;NULL
+314;11-21;Coll?ge Beaumarchais;124 rue Amelot;NULL;NULL;NULL;NULL;NULL;11;NULL
+315;11-22;?cole ?l?mentaire;109 Av Parmentier;NULL;NULL;NULL;NULL;NULL;11;NULL
+316;11-23;?cole ?l?mentaire;109 Av Parmentier;NULL;NULL;NULL;NULL;NULL;11;NULL
+317;11-24;?cole ?l?mentaire;1 rue Pihet;NULL;NULL;NULL;NULL;NULL;11;NULL
+318;11-25;?cole ?l?mentaire;1 rue Pihet;NULL;NULL;NULL;NULL;NULL;11;NULL
+319;11-26;?cole Maternelle;2 Passage Beslay;NULL;NULL;NULL;NULL;NULL;11;NULL
+320;11-27;?cole Maternelle;111 Av Parmentier;NULL;NULL;NULL;NULL;NULL;11;NULL
+321;11-28;Groupe Scolaire;39 rue des Trois Bornes;NULL;NULL;NULL;NULL;NULL;11;NULL
+322;11-29;Groupe Scolaire;39 rue des Trois Bornes;NULL;NULL;NULL;NULL;NULL;11;NULL
+323;11-30;Groupe Scolaire;39 rue des Trois Bornes;NULL;NULL;NULL;NULL;NULL;11;NULL
+324;11-31;?cole ?l?mentaire;77 Bd de Belleville;NULL;NULL;NULL;NULL;NULL;11;NULL
+325;11-32;?cole ?l?mentaire;77 Bd de Belleville;NULL;NULL;NULL;NULL;NULL;11;NULL
+326;11-33;Lyc?e Voltaire;101 Av de La R?publique;NULL;NULL;NULL;NULL;NULL;11;NULL
+327;11-34;Lyc?e Voltaire;101 Av de La R?publique;NULL;NULL;NULL;NULL;NULL;11;NULL
+328;11-35;?cole ?l?mentaire;98 Av de La R?publique;NULL;NULL;NULL;NULL;NULL;11;NULL
+329;11-36;?cole ?l?mentaire;98 Av de La R?publique;NULL;NULL;NULL;NULL;NULL;11;NULL
+330;11-37;?cole ?l?mentaire;100 Av de La R?publique;NULL;NULL;NULL;NULL;NULL;11;NULL
+331;11-38;?cole ?l?mentaire;100 Av de La R?publique;NULL;NULL;NULL;NULL;NULL;11;NULL
+332;11-39;?cole ?l?mentaire;29 rue Sevran;NULL;NULL;NULL;NULL;NULL;11;NULL
+333;11-40;?cole ?l?mentaire;22 rue Saint Maur;NULL;NULL;NULL;NULL;NULL;11;NULL
+334;11-41;?cole Maternelle;14 rue Merlin;NULL;NULL;NULL;NULL;NULL;11;NULL
+335;11-42;Coll?ge Alain Fournier;87 rue L?on Frot;NULL;NULL;NULL;NULL;NULL;11;NULL
+336;11-43;Coll?ge Alain Fournier;87 rue L?on Frot;NULL;NULL;NULL;NULL;NULL;11;NULL
+337;11-44;Gymnase Philippe Auguste;68 Av Philippe Auguste;NULL;NULL;NULL;NULL;NULL;11;NULL
+338;11-45;Gymnase Philippe Auguste;68 Av Philippe Auguste;NULL;NULL;NULL;NULL;NULL;11;NULL
+339;11-46;?cole ?l?mentaire Alexandre Dumas;30 Passage du Bureau;NULL;NULL;NULL;NULL;NULL;11;NULL
+340;11-47;?cole ?l?mentaire Alexandre Dumas;30 Passage du Bureau;NULL;NULL;NULL;NULL;NULL;11;NULL
+341;11-48;?cole ?l?mentaire;4 Av de Bouvines;NULL;NULL;NULL;NULL;NULL;11;NULL
+342;11-49;?cole ?l?mentaire;4 Av de Bouvines;NULL;NULL;NULL;NULL;NULL;11;NULL
+343;11-50;?cole ?l?mentaire;16 rue Titon;NULL;NULL;NULL;NULL;NULL;11;NULL
+344;11-51;?cole ?l?mentaire;16 rue Titon;NULL;NULL;NULL;NULL;NULL;11;NULL
+345;11-52;?cole ?l?mentaire;16 rue Titon;NULL;NULL;NULL;NULL;NULL;11;NULL
+346;11-53;?cole ?l?mentaire;16 rue Titon;NULL;NULL;NULL;NULL;NULL;11;NULL
+347;11-54;?cole ?l?mentaire;8 Cit? Voltaire;NULL;NULL;NULL;NULL;NULL;11;NULL
+348;11-55;?cole ?l?mentaire;8 Cit? Voltaire;NULL;NULL;NULL;NULL;NULL;11;NULL

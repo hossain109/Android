@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TabletFragmentDynmic</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string-array name="itemsMenuPrincipal">
+        <item>La couleur du mensonge</item>
+        <item>Les hommes d\'honneur</item>
+        <item>Invictus</item>
+        <item>Forrest Gump</item>
+        <item>L\'impasse</item>
+        <item>Le parrain</item>
+        <item>Le parrain 2</item>
+        <item>Le parrain 3</item>
+        <item>L\'union sacrée</item>
+        <item>La vie de David Gale</item>
+        <item>15 minutes</item>
+        <item>Thomas Crown</item>
+    </string-array>
+
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_activity_couleur_du_mensonge">CouleurDuMensonge</string>
+    <string name="title_activity_hommes_dhonneur">HommesDHonneur</string>
+
+</resources>

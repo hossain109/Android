@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="fonctions">
+        <item>Employé</item>
+        <item>Cadre</item>
+        <item>Cadre supérieur</item>
+    </string-array>
+    <string-array name="items_pays">
+        <item>France</item>
+        <item>Italie</item>
+        <item>Espagne</item>
+        <item>Algérie</item>
+        <item>Maroc</item>
+        <item>Tunisie</item>
+        <item>Bulgarie</item>
+        <item>Roumanie</item>
+        <item>Portugal</item>
+    </string-array>
+
+</resources>

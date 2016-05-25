@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <fragment
+        android:id="@+id/menu_fragment"
+        android:name="fr.pb.tabletfragment.Bandeau"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </fragment>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="CATALOGUE"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+       		android:layout_width="200dp"
+    		android:layout_height="200dp"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/image1" />
+
+        <ImageView
+    		android:layout_width="200dp"
+    		android:layout_height="200dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/image2" />
+
+        <ImageView
+    		android:layout_width="200dp"
+   			android:layout_height="200dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/image3" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+    		android:layout_width="200dp"
+    		android:layout_height="200dp"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/image4" />
+
+        <ImageView
+    		android:layout_width="200dp"
+    		android:layout_height="200dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/image5" />
+
+        <ImageView
+    		android:layout_width="200dp"
+    		android:layout_height="200dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/image6" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/buttonAccueil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="retourAccueil"
+            android:text="Retour à l&apos;accueil" />
+    </LinearLayout>
+
+
+</LinearLayout>

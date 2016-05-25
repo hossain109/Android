@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;repertoire.txt&apos; to &apos;raw&apos;&#x0D;&#x0A;- Original project: &apos;Ressources&apos;&#x0D;&#x0A;- Destination element: &apos;raw&apos;&#x0D;&#x0A;- Original element: &apos;repertoire.txt&apos;" description="Copy file" element1="res/raw/repertoire.txt" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1453712810570" target="/FichierCSV/res/raw" units="0" version="1.0"/>
+</session>

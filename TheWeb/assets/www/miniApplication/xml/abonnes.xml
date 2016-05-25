@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <abonne pseudo="Milou" email="milou@free.fr" mdp="milou"/>
+  <abonne pseudo="Nana" email="nana@free.fr" mdp="nana"/>
+  <abonne pseudo="Tintin" email="tintin@free.fr" mdp="tintin"/>
+</root>

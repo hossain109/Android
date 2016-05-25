@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ElectionFo</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_candidat_fo">CandidatFO</string>
+    <string name="title_activity_bureau_fo">BureauFO</string>
+    <string name="title_activity_lire_portable">LirePortable</string>
+
+</resources>

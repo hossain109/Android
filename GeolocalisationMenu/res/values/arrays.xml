@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<resources> 
+
+    <string-array name="items_geolocalisation"> 
+        <item>Fournisseurs</item>
+        <item>Tests Réseaux</item>
+        <item>Géolocalisation WIFI</item>
+        <item>Géolocalisation GPS</item>
+        <item>Géocodage</item>
+    </string-array> 
+
+</resources>

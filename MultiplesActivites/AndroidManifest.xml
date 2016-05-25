@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="fr.pb.multiplesactivites"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="fr.pb.multiplesactivites.AccueilLibrairie"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="fr.pb.multiplesactivites.EditeurInsert"
+            android:label="@string/title_activity_editeur_insert" >
+        </activity>
+        <activity
+            android:name="fr.pb.multiplesactivites.AuteurInsert"
+            android:label="@string/title_activity_auteur_insert" >
+        </activity>
+        <activity
+            android:name="fr.pb.multiplesactivites.InsertLivre"
+            android:label="@string/title_activity_insert_livre" >
+        </activity>
+    </application>
+
+</manifest>

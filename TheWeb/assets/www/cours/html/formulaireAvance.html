@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Formulaire avancé</title>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+    <link rel="stylesheet" href="../../jquery/jquery.mobile.css" />
+
+    <script src="../../jquery/jquery.js"></script>
+    <script src="../../jquery/jquery.mobile.js"></script>
+</head>
+
+<body>
+
+<div data-role="page">
+
+    <div data-role="content">
+
+    <form id="formAvanceTest">
+
+
+<div data-role="fieldcontain">
+    <label for="emailStagiaire">E-mail</label>
+    <input type="email" name="emailStagiaire" id="emailStagiaire" data-mini="true"/>
+</div>
+
+<div data-role="fieldcontain">
+    <label for="mdpStagiaire">Mot de passe</label>
+    <input type="password" name="mdpStagiaire" id="mdpStagiaire" data-mini="true"/>
+</div>
+
+<div data-role="fieldcontain">
+    <label for="dateDeNaissance">Date de naissance</label>
+    <input type="date" name="dateDeNaissance" id="dateDeNaissance" data-mini="true"/>
+</div>
+
+<div data-role="fieldcontain">
+    <label for="heureDeNaissance">Heure de naissance</label>
+    <input type="time" name="heureDeNaissance" id="heureDeNaissance" data-mini="true"/>
+</div>
+
+<div data-role="fieldcontain">
+    <label for="age">Age</label>
+    <input type="range" name="age" id="age" value="18" min="7" max="77"  data-mini="true"/>
+</div>
+
+<div data-role="fieldcontain">
+    <label for="interrupteur">Disponible</label>
+    <select name="interrupteur" id="interrupteur" data-role="slider" data-mini="true">
+        <option value="off">Off</option>
+        <option value="on" selected="selected">On</option>
+    </select>
+</div>
+
+<div data-role="fieldcontain">
+    <label for="commentaires">Commentaires</label>
+    <textarea name="commentaires" id="commentaires" rows="3"></textarea>
+</div>
+
+<div data-role="fieldcontain">
+    <label for="couleur">Couleur</label>
+    <input type="color" name="couleur" id="couleur" value="#FF000" />
+</div>
+
+        <fieldset class="ui-grid-a">
+            <div class="ui-block-a">
+                <input type="reset" value="Annuler" name="btAnnuler" id="btAnnuler" data-icon="back" data-iconpos="right" data-mini="true"/>
+            </div>
+            <div class="ui-block-b">
+                <input type="submit" value="Confirmer" name="btConfirmer" id="btConfirmer" data-icon="check" data-iconpos="right" data-mini="true"/>
+            </div>
+        </fieldset>
+
+    </form>
+
+    </div><!-- /content -->
+
+</div><!-- /page -->
+
+</body>
+</html>
